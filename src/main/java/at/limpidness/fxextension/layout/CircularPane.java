@@ -5,6 +5,9 @@ import javafx.scene.layout.Pane;
 
 import static java.lang.Math.PI;
 
+/**
+ * CircularPane lay out it's children within a circular arrangement.
+ */
 public class CircularPane extends Pane {
     public enum ANGLE_MEASURE {
         RADIAN, DEGREE, GRADIAN, TURN;
